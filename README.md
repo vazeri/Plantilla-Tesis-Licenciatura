@@ -10,7 +10,7 @@
    Erick Vázquez  - Unidad Profesional Zacatenco - 15 Septiembre 2015
  -----------------------------------------------------------------------------
  Este es el documento TEX que edite para presentar mi tesis de licenciatura, 
- hago publico este documento ya que a lo largo del desarrollo de mi tesis note  
+ hago publico este documento ya que a lo largo del desarrollo de mi tesis note
  que mis compañeros tenían demasiados problemas con el hecho de tener que hacer 
  sus formato en MS WORD al punto de no poder completar el contenido de sus tesis.
 
@@ -29,7 +29,8 @@
  
  Siéntase con la libertad de utilizar, editar y modificar el formato a su gusto 
 
-###Se agradece de antemano un agradecimiento a su servidor por la plantilla ;)
+###Se agradece de antemano un agradecimiento a su servidor por la plantilla ![alt text](https://github.com/vazeri/Tesis-Licenciatura/blob/master/Tesis/Imagenes/wink.png "¡Suerte!")
+
 
 Email: [ergovazquez@esimez.mx](ergovazquez@esimez.mx) -  GitHub: [https://github.com/vazeri/](https://github.com/vazeri/)  -  LinkedIn: [https://mx.linkedin.com/in/vazeri](https://mx.linkedin.com/in/vazeri)  
 
