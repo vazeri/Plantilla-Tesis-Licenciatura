@@ -31,5 +31,6 @@
 
 ###Se agradece de antemano un agradecimiento a su servidor por la plantilla ;)
 
-Email: [ergovazquez@esimez.mx](ergovazquez@esimez.mx)            GitHub: [https://github.com/vazeri/](https://github.com/vazeri/) 
+Email: [ergovazquez@esimez.mx](ergovazquez@esimez.mx) -  GitHub: [https://github.com/vazeri/](https://github.com/vazeri/)  -  LinkedIn: [https://mx.linkedin.com/in/vazeri](https://mx.linkedin.com/in/vazeri)  
+
 
