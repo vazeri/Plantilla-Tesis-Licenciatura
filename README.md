@@ -1,10 +1,5 @@
 ####Plantilla LaTeX de tesis de licenciatura para: 
-      _______ ____________  _    _ ______
-     /  ____//  ____/\_   \| \  / ||  ___\
-    /  /___  |  \__   | |\/|  \/  ||  |___
-   /   ___/  \___  \  | |  |      ||   ___\
-  /  /____  ____/  / _| |_ | |\/| ||  |____
- /_______/ /______/ /_____/|_/  \_||_______\
+ 
  Escuela Superior de Ingeniería Mecánica y Eléctrica 
  -----------------------------------------------------------------------------
    Erick Vázquez  - Unidad Profesional Zacatenco - 15 Septiembre 2015
