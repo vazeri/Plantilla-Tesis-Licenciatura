@@ -1,0 +1,147 @@
+%                 _______ ____________  _    _ ______
+%                /  ____//  ____/\_   \| \  / ||  ___\
+%               /  /___  |  \__   | |\/|  \/  ||  |___
+%              /   ___/  \___  \  | |  |      ||   ___\
+%             /  /____  ____/  / _| |_ | |\/| ||  |____
+%            /_______/ /______/ /_____/|_/  \_||_______\
+%        Escuela Superior de Ingeniería Mecánica y Eléctrica 
+% ---------------------------------------------------------------
+% Vázquez González Erick - Unidad Zacatenco - 15 Septiembre 2015
+% ---------------------------------------------------------------
+%
+% Este es el documento TEX que utilice para presentar mi tesis de licenciatura, hago publico este documento a lo largo del Desarrollo de mi tesis note que mis compañeros tenían demasiados problemas con el hecho de tener que hacer su formato en MS WORD al punto de no poder si quiera completar el contenido de sus tesis.
+
+% La intención de compartir este documento es intentar llegar y ayudar a aquellos compañeros que tomen el reto de aprender a utilizar LaTeX para escribir su tesis, Este documento tiene el formato de una tesis tradicional con el formato de citas de la IEEE cada capitulo de este documento viene en un archivo distinto para facilitar la edición y navegación, al inicio de cada  capitulo vienen comentarios para el apoyo de la escritura del contenido del capitulo con el fin de servir como guía para la documentación de la tesis
+
+% Este documento se edito utilizando en parte la metodología LGS y el libro "Como elaborar y asesorar una tesis" de Carlos Muñoz Rubio, anexo los documentos en los que se baso el diseño de este formato, pueden ser encontrados en la carpeta Guías en el menú 
+
+% Sientase con la libertad de utilizar, editar y modificar el formato a su gusto    
+%
+%   gzerox@gmail.com            https://github.com/vazeri/
+% ---------------------------------------------------------------------------------------------------------
+% Inicio del archivo main de configuración
+
+\documentclass[11pt]{report}                  % Tamaño de letra y tipo de documento
+\usepackage[spanish]{babel}                   % Indica que escribiremos en español
+\usepackage[utf8]{inputenc}     
+\usepackage[acronym, toc]{glossaries}         % Agrega glosario
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\bibliographystyle{unsrt}                     % Orden numérico
+
+\usepackage{titlesec} \linespread{1.25}
+
+\setlength{\parindent}{3em}                   % Separación espacios después del punto y aparte
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}                   % Elimina la sangría francesa
+
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{amssymb}                          % Símbolos matemáticos (por lo tanto)
+\usepackage{graphicx} \usepackage{rotating}   % Incluir imágenes en LaTeX
+\usepackage{color}                            % Para colorear texto
+\usepackage{subfigure}                        % subfiguras
+\usepackage{float}                            % Podemos usar el especificador [H] en las figuras para que se queden en su lugar
+\usepackage{sidecap}                          % Para poner el texto de las imágenes al lado
+\sidecaptionvpos{figure}{c}                   % Para que el texto se alinee al centro 
+\usepackage{caption}                          % Para poder quitar numeración de figuras
+
+\usepackage[nottoc]{tocbibind}
+\usepackage{anysize} \marginsize{1.5cm}{1cm}{1cm}{1cm} %Margenes Izquierda, derecha, arriba, abajo
+
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\usepackage{titlesec}               %http://ctan.org/pkg/titlesec
+\titlespacing{\chapter}{0pt}{30pt}{<after-sep>}% 
+
+\usepackage{appendix}
+\renewcommand{\appendixname}{APÉNDICE} \renewcommand{\appendixtocname}{APÉNDICE} \renewcommand{\appendixpagename}{APÉNDICE} 
+% Referencias sean hipervínculos a las figuras o ecuaciones y  aparezcan en color
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage{fancyhdr} \usepackage{datetime}
+
+\newdateformat{monthyeardate}{\monthname[\THEMONTH], \THEYEAR}
+  
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{E.S.I.M.E. Zacatenco}
+\fancyhead[RE,LO]{Instituto Politécnico Nacional}
+\fancyfoot[CE,CO]{\rightmark}
+\fancyfoot[LE,RO]{\thepage}
+  
+\usepackage{listings}                       % Para usar código fuente
+\definecolor{dkgreen}{rgb}{0,0.6,0}         % Definimos colores para usar en el código
+\definecolor{gray}{rgb}{0.5,0.5,0.5}        % configuración para el lenguaje a utilizar
+
+\lstset{language=Matlab, keywords={break,case,catch,continue,else,elseif,end,for,function,  global,if,otherwise,persistent,return,switch,try,while}, basicstyle=\ttfamily, keywordstyle=\color{blue}, commentstyle=\color{red}, stringstyle=\color{dkgreen}, numbers=left, numberstyle=\tiny\color{gray}, stepnumber=1, numbersep=10pt, backgroundcolor=\color{white}, tabsize=4, showspaces=false, showstringspaces=false}
+   
+%\usepackage[backend=biber, style=numeric, citestyle=reading ]{biblatex}  %Restaura citas en pie de pagina 
+%\usepackage[backend=biber, style=ieee, citestyle=reading]{biblatex}
+
+
+\usepackage{biblatex}
+\usepackage{footnote} \makesavenoteenv{figure} \makesavenoteenv{tabular} \makesavenoteenv{table}
+
+\addbibresource{Bibliografia.bib}
+
+\thispagestyle{empty}
+\usepackage{helvet}                                         % Tipo de letra
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{csquotes}
+
+\titleformat{\chapter}[display]                             % No de capitulo
+{\normalfont\huge\filleft\bfseries}
+{\chaptertitlename \space \thechapter }{0pt}                % Espacio vert despues de capitulo No
+{\Huge}[\vspace{1pt}{\titlerule[2pt]}]
+\titleformat{name=\chapter,numberless}[display]
+{\normalfont\huge\filleft\bfseries}{}{-50pt}                % Títulos de índice
+{ \vspace{2ex}\Huge}[\vspace{1ex}{\titlerule[2pt]}]
+\titlespacing*{\chapter} {0pt}{-50pt}{20pt}                 % adjust these numbers
+\titlespacing*{name=\chapter,numberless} {0pt}{-50pt}{20pt} % adjust these 
+
+\makeglossaries \input{Glosario.tex} \renewcommand*{\glstextformat}[1]{\textbf{#1}}
+
+
+\begin{document}
+
+\input{Tesis/000_Portada}
+\input{Tesis/00_Protocolo}  
+
+\setlength{\parindent}{0em}                   % Separación espacios después del punto y aparte
+\setlength{\parskip}{0em}                     % ÍNDICE COMPACTO
+\tableofcontents                              % Índice general
+\listoftables                                 % Índice de tablas 
+\listoffigures                                % Índice de figuras
+
+\clearpage \printglossary   \printglossary[type=\acronymtype]
+
+\setlength{\parskip}{.3cm}                    % PUNTOS Y APARTE párrafos
+\setlength{\parindent}{0cm}                   % Sangría francesa
+\setlength{\abovecaptionskip}{-20pt}          % espacio antes de figuras y tablas
+\setlength{\belowcaptionskip}{-20pt}          % espacio después de figuras y tablas
+\setlength{\abovedisplayshortskip}{-10pt}     % Espacio después de ecuaciones
+\setlength{\belowdisplayshortskip}{10pt}      % Espacio ante/después de ecuaciones
+\addtolength{\parskip}{-0.75mm}
+
+\let\OLDitemize\itemize
+\renewcommand\itemize{\OLDitemize\addtolength{\itemsep}{-10pt}}     % Espacio entre viñetas
+
+\input{Tesis/01_Conceptual}
+\input{Tesis/02_Contextual}
+\input{Tesis/03_Analisis}
+\input{Tesis/04_Metodologico}
+\input{Tesis/05_Construccion}
+\input{Tesis/06_Analisis}
+\input{Tesis/07_Conclusion}
+
+\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA Y WEBGRAFÍA}]
+\addappheadtotoc 
+\appendixpage 
+\appendix  
+\input{Tesis/08_Apendice}
+\end{document}

@@ -1,0 +1,13 @@
+% Este documento se utiliza como bloc de notas par aguardar de manera temporal contenido que no se sabe con certeza en que capitulo debe ser colocado, tambien puede utilizarse para almacenar contenidos que han sidos removidos 
+\section{Modelado entidad/relación}
+
+Un modelado de la base de datos sirve para determinar la estructura lógica de la base de datos y determinara fundamentalmente el modo de almacenamiento, organización y manipulación de los datos.
+
+Un modelado de base de datos puede ser caracterizado por :
+
+\begin{itemize}
+\item Propiedades estáticas : objetos, atributos de dichas entidades y relaciones entre esas entidades.
+\item Propiedades dinámicas : operaciones sobre entidades, propiedades o relaciones entre operaciones.
+\item Reglas de integridad sobre las entidades y las operaciones.
+\end{itemize}
+
