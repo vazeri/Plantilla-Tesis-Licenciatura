@@ -1,16 +1,16 @@
 # Tesis-Licenciatura
 
 Plantilla LaTeX de tesis de para la: 
-                      _______ ____________  _    _ ______  
-                     /  ____//  ____/\_   \| \  / ||  ___\  
-                    /  /___  |  \__   | |\/|  \/  ||  |____  
-                   /   ___/  \___  \  | |  |      ||   ____\
-                  /  /____  ____/  / _| |_ | |\/| ||  |_____
-                 /_______/ /______/ /_____/|_/  \_||________\
-              Escuela Superior de Ingeniería Mecánica y Eléctrica 
- ---------------------------------------------------------------------------------
- #       Vázquez González Erick - Unidad Zacatenco - 15 Septiembre 2015
- ---------------------------------------------------------------------------------
+                  _______ ____________  _    _ ______
+                /  ____//  ____/\_   \| \  / ||  ___\
+               /  /___  |  \__   | |\/|  \/  ||  |___
+              /   ___/  \___  \  | |  |      ||   ___\
+             /  /____  ____/  / _| |_ | |\/| ||  |____
+            /_______/ /______/ /_____/|_/  \_||_______\
+        Escuela Superior de Ingeniería Mecánica y Eléctrica 
+ ---------------------------------------------------------------
+ Vázquez González Erick - Unidad Zacatenco - 15 Septiembre 2015
+ ---------------------------------------------------------------
 
 Este es el documento TEX que utilice para presentar mi tesis de licenciatura, 
 hago publico este documento a lo largo del Desarrollo de mi tesis note que mis 
