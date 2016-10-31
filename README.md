@@ -9,7 +9,7 @@ Plantilla LaTeX de tesis de para la:
                  /_______/ /______/ /_____/|_/  \_||________\
               Escuela Superior de Ingeniería Mecánica y Eléctrica 
  ---------------------------------------------------------------------------------
-        Vázquez González Erick - Unidad Zacatenco - 15 Septiembre 2015
+    Vázquez González Erick   -    Unidad Zacatenco   -  15 Septiembre 2015
  ---------------------------------------------------------------------------------
 
 Este es el documento TEX que utilice para presentar mi tesis de licenciatura, 
@@ -30,7 +30,8 @@ Este documento se edito utilizando en parte la metodología LGS y el libro
 en los que se baso el diseño de este formato, pueden ser encontrados en la carpeta
 Guías en el menú. 
 
- Siéntase con la libertad de utilizar, editar y modificar el formato a su gusto 
+Siéntase con la libertad de utilizar, editar y modificar el formato a su gusto 
+
 ---------------------------------------------------------------------------------
-          ergovazquez@esimez.mx            https://github.com/vazeri/
+  Email:  ergovazquez@esimez.mx          GitHub:  https://github.com/vazeri/
 ---------------------------------------------------------------------------------
