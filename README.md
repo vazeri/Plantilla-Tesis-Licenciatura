@@ -5,7 +5,7 @@
                    /   ___/  \___  \  | |  |      ||   ___\
                   /  /____  ____/  / _| |_ | |\/| ||  |____
                  /_______/ /______/ /_____/|_/  \_||_______\
-             Escuela Superior de Ingeniería Mecánica y Eléctrica 
+###             Escuela Superior de Ingeniería Mecánica y Eléctrica 
  -----------------------------------------------------------------------------
    Erick Vázquez  - Unidad Profesional Zacatenco - 15 Septiembre 2015
  -----------------------------------------------------------------------------
@@ -29,6 +29,6 @@
  
  Siéntase con la libertad de utilizar, editar y modificar el formato a su gusto 
 se agradece de antemano un agradecimiento a su servidor por la plantilla ;)
-
-Email: [ergovazquez@esimez.mx](ergovazquez@esimez.mx)      GitHub: [https://github.com/vazeri/](https://github.com/vazeri/) 
-
+---
+###Email: [ergovazquez@esimez.mx](ergovazquez@esimez.mx)      GitHub: [https://github.com/vazeri/](https://github.com/vazeri/) 
+---
