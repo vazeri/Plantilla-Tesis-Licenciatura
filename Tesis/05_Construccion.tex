@@ -1,0 +1,62 @@
+%Capítulo IV Caso Práctico/Construcción
+
+%; Normalmente el cuerpo principal del Proyecto y documento de la tesis.  Supongamos que; se define qué: el Producto Principal a desarrollar es: Un Sistema de Información Basado en Computadoras [1], y se elige la Metodología de Leopoldo Galindo Soria (LGS), ya qué es la más cercana o la más conocida en ese medio ambiente.  A partir de ahí, se siguen las actividades que sugiere ésta Metodología, para  crear o proponer o construir el Producto Principal del Proyecto de Tesis.
+
+\chapter{ DISEÑO DEL SISTEMA }
+
+\textit{En este capitulo se cubre la implementación del sistema en su conjunto así como los pasos a seguir a grandes rázgos sin entrar en muchos detalles sobre como se diseña el sistema a implementar }
+
+\section{ Requisitos funcionales del sistema }
+
+\begin{itemize}
+
+\item \textbf{Comunicación Inalámbrica:} Debe tener la capacidad de transmitir de manera inalámbrica la medición tomada por el micro controlador
+
+\item \textbf{Restricción de sustancias peligrosas:} La tarjeta debe cumplir con las normas ambientales internacionales (RoHS\footnote{RoHS (De las siglas en inglés Restriction of Hazardous Substances) se refiere a la directiva 2002/95/CE de Restricción de ciertas Sustancias Peligrosas en aparatos eléctricos y electrónicos, adoptada en febrero de 2003 por la Unión Europea}) y evitar el uso de sustancias toxicas en sus materiales y fabricación.
+ 
+\item \textbf{Capacidad de múltiples lecturas:} Se requiere una tarjeta que tenga la capacidad de medir de al menos una fase del sistema eléctrico.
+
+\item \textbf{Lectura del consumo energético:} El usuario podrá colocar un sensor de corriente de manera segura que permita medir la intensidad que circula por el conductor.
+
+\item \textbf{Creación de una cuenta web:} El usuario podrá crear una cuenta en la plataforma web del producto.
+
+\end{itemize}
+
+\section*{ Nivel usuario }
+
+\begin{itemize}
+
+\item Medir el consumo de la instalación eléctrica.
+\item Procesar la información.
+\item Interpretar la información por medio software en un navegador web.
+\item Mostrar la información al usuario de una manera agradable e intuitiva.
+\end{itemize}
+
+\section*{ Nivel técnico }
+
+\begin{itemize} 
+
+\item Medir la corriente que fluye por el sistema eléctrico.
+\item Procesar la señal por medio de un micro controlador.
+\item Elegir un medio de trasmisión para la información.
+\item Enviar la información a un servidor web.
+\item Simplificar la información de manera gráfica y clara para el usuario.
+
+\end{itemize}
+
+
+\section*{Nivel sistema}
+
+\begin{itemize} % [noitemsep] removes whitespace between the items for a compact look
+
+\item Acondicionar las señales para el Convertidor Analógico Digital del microcontrolador.
+\item Aplicar un corrimiento de \gls{CC} para que el micro controlador pueda leer $2^8$ valores (256).
+\item Canalizar por un puerto del micro controlador la señal digitalizada.
+\item Enviar la señal de manera inalámbrica a través de un sistema de radio frecuencia.
+\item Procesamiento de los datos de entrada del lado servidor.
+\item Visualización de los datos a través de una aplicación web.
+\end{itemize}
+
+
+%Capítulo IV Caso Práctico/Construcción
+
