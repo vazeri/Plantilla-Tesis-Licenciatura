@@ -35,6 +35,6 @@ Siéntase con la libertad de utilizar, editar y modificar el formato a su gusto
 ###Se agradece de antemano un agradecimiento a su servidor por la plantilla ![alt text](https://github.com/vazeri/Tesis-Licenciatura/blob/master/Tesis/Imagenes/suerte.png "¡Suerte!")
 
 
-Email: [ergovazquez@esimez.mx](mailto:ergovazquez@esimez.mx) -  GitHub: [https://github.com/vazeri/](https://github.com/vazeri/)  -  LinkedIn: [https://mx.linkedin.com/in/vazeri](https://mx.linkedin.com/in/vazeri)  
+Email: [ergovazquez@esimez.mx](ergovazquez@esimez.mx) -  GitHub: [github.com/vazeri/](https://github.com/vazeri/)  -  LinkedIn: [mx.linkedin.com/in/vazeri](https://mx.linkedin.com/in/vazeri)  
 
 
