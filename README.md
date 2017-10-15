@@ -1,15 +1,8 @@
-Plantilla LaTeX de tesis de licenciatura para: 
-#        ______ ____________  _    _  _____
-#       /  ___//  ____/\_   \| \  / ||  ___\
-#      /  /__  |  \__   | |\/|  \/  ||  |___
-#     /  ___/  \___  \  | |  |      ||   ___\
-#    /  /___  ____/  / _| |_ | |\/| ||  |____
-#   /______/ /______/ /_____/|_/  \_||_______\   
- Escuela Superior de Ingeniería Mecánica y Eléctrica 
+Plantilla LaTeX de tesis de licenciatura para la Escuela Superior de Ingeniería Mecánica y Eléctrica 
  -----------------------------------------------------------------------------
    Erick Vázquez  - Unidad Profesional Zacatenco - 15 Septiembre 2015
  -----------------------------------------------------------------------------
-Este es el documento TEX que edite para presentar mi tesis de licenciatura, 
+Este es el documento TEX que diseñe y utilice para presentar mi tesis de licenciatura, 
 hago publico este documento ya que a lo largo del desarrollo de mi tesis note
 que mis compañeros tenían demasiados problemas con el hecho de tener que hacer 
 sus formatos en MS WORD al punto de no poder completar el contenido de sus tesis.
