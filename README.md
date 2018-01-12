@@ -1,7 +1,6 @@
-Plantilla de tesis de licenciatura (LaTeX)  
+# Plantilla de tesis de licenciatura (LaTeX)  
 
 ![alt text]( https://github.com/vazeri/Tesis-Licenciatura/raw/master/Tesis/Imagenes/preview.jpg)
-
  -----------------------------------------------------------------------------
    Erick Vázquez  - Unidad Profesional Zacatenco - 15 Septiembre 2015
  -----------------------------------------------------------------------------
