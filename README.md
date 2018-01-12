@@ -1,4 +1,4 @@
-Plantilla LaTeX de tesis de licenciatura para la Escuela Superior de Ingeniería Mecánica y Eléctrica 
+Plantilla LaTeX de tesis de licenciatura  
  -----------------------------------------------------------------------------
    Erick Vázquez  - Unidad Profesional Zacatenco - 15 Septiembre 2015
  -----------------------------------------------------------------------------
